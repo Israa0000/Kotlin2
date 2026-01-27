@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">proyecto_kotlin_2</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_galeria">Galeria</string>
+
+    <string name="valentine">Funny Valentine</string>
+    <string name="jolyne">Jolyne Cujoh</string>
+    <string name="giorno">Giorno Giovanna</string>
+    <string name="joseph_joestar">Joseph Joestar</string>
+    <string name="weather">Weather Report</string>
+    <string name="hangedman">Hanged Man</string>
+    <string name="josuke">Josuke</string>
+    <string name="jotaro">Jotaro Kujo</string>
+    <string name="kenjiNigimura">Keicho Nijimura</string>
+    <string name="kars">Kars</string>
+
+
 </resources>
