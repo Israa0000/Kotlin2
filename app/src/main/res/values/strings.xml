@@ -13,6 +13,11 @@
     <string name="jotaro">Jotaro Kujo</string>
     <string name="kenjiNigimura">Keicho Nijimura</string>
     <string name="kars">Kars</string>
+    <string name="title_activity_main_hobbies">MainHobbies</string>
+
+    <string name="robarCobre">Galeria</string>
+
+
 
 
 </resources>
