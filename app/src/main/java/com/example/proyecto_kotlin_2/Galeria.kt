@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -37,16 +38,27 @@ class Galeria : ComponentActivity() {
             }
         }
     }
+
+
     @Composable
     fun GaleriaApp(){
+        ListaMiniaturas(MisMiniaturas.cargarMiniaturas())
+    }
 
-        var listaMiniaturas : ArrayList<Miniaturas> = MisMiniaturas()
+    @Composable
+    fun ListaMiniaturas(arrayMinis : ArrayList<Miniaturas>, modifier : Modifier = Modifier){
         LazyColumn (
+            modifier = modifier
 
-        ){
-
+        ) {
+            items(arrayMinis) {
+                miniaturas -> (MiniaturaCarta(miniaturas,
+                modifier = Modifier.padding(8.dp)))
+            }
         }
     }
+
+
 
     @Composable
     fun MiniaturaCarta(mini : Miniaturas, modifier : Modifier = Modifier){
@@ -61,7 +73,7 @@ class Galeria : ComponentActivity() {
                 Image(
                     painter = painterResource(mini.imagenMiniatura),
                     contentDescription = stringResource(mini.nombreMiniatura),//solo aparece si la imagen no carga
-                    modifier = Modifier.size(500.dp,500.dp)
+                    modifier = Modifier.size(500.dp,400.dp)
                 )
                 Text(
                     text = stringResource(mini.nombreMiniatura),
