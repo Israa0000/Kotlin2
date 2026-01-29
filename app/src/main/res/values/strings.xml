@@ -13,9 +13,17 @@
     <string name="jotaro">Jotaro Kujo</string>
     <string name="kenjiNigimura">Keicho Nijimura</string>
     <string name="kars">Kars</string>
-    <string name="title_activity_main_hobbies">MainHobbies</string>
 
-    <string name="robarCobre">Galeria</string>
+
+    <string name="title_activity_main_hobbies">MainHobbies</string>
+    <string name="robarCobre">Robar cobre</string>
+    <string name="fumar">Fumar</string>
+    <string name="josear">Josear</string>
+    <string name="jugarAlRainbow">jugar al rainbow</string>
+    <string name="moda">Moda</string>
+    <string name="inversorDeRiesgo">Inversor de alto riesgo</string>
+    <string name="twittear">Twittear</string>
+    <string name="dormir">Dormir</string>
 
 
 
